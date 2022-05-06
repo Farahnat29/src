@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width intial-scale=1 shrink-to-fit=no">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>KFC Restorant</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header id="header">
+        <!-- <img class="logo" src="img/logo.png" alt="logo"> -->
+        <nav class="nav_links">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#speial">special</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#dish">dish</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="logo"><img src="img/logo.png" height="60px"></a>
+    </header>
+    <!-- header section ends -->
+    <!-- main section starts -->
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>
+                        THE BEST FOOD EVER
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates odit nemo, animi facere
+                        labore sit excepturi molestiae voluptate deserunt nisi ea? </p>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main section ends -->
+
+    <!-- footer starts -->
+    <footer>
+
+    </footer>
+    <!-- footer ends -->
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+ <section class="dark-bg py-3" id="photos">
+        <div class="container">
+            <div d-flex flex-cloumn>
+                <h2 class="display-5 mb-5 display-0" style="color: black; text-align: center; ">Places To Visit</h2>
+
+
+                <div class="row">
+                    <div class="column">
+                        <img src="img/altinkum.jpg" alt="Nature" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/Ayasofya.jpg" alt="Snow" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/antalya-2708343.jpg" alt="Mountains" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/pamukkale.jpg" alt="Lights" onclick="myFunction(this);">
+                    </div>
+                </div>
+
+                <!-- The expanding image container -->
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
+            </div>
+    </section>

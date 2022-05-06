@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- ///Ogrenci bilgileri///// -->
+    <!-- Ad-Soyad : Farah Natsheh
+Öğrenci No : B201200561
+Site linki : https://bitbucket.org/farahnat29/webtecnoodevi/src/master/
+repository linki:  git clone https://farahnat29@bitbucket.org/farahnat29/webtecnoodevi.git
+ -->
+
+    <!-- ///////// -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Travel</title>
+</head>
+<!-- //////NAVBAR SECTION////////// -->
+
+<body>
+    <header class="header " id="navbar">
+        <nav class="navbar fixed-top navbar-expand-md scrolling-navbar navbar-dark bg-travel py-2">
+            <div class="container">
+                <a class="navbar-brand" href="#">Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsec">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#photos">photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#maps">Maps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ///////MAIN PAGE IMAGE////////// -->
+    <section class="sec2 p-5" id="main">
+        <div class="container">
+            <div d-flex flex-cloumn>
+                <h1 class="display-0">TRAVEL ANYWHERE</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p>Dolore itaque dolor molestias, fugit at quos
+                        beatae tempora fugiat </p>
+                    <p> rem architecto distinctio illum?</p>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ///////ABOUT SECTION//////////// -->
+    <section class="generic" id="about">
+        <div class="container">
+            <h2 class="display-5 mb-5" style="color: black;">Who Are We?</h2>
+            <div class="row mb-4">
+                <div class="col-8 bg-light">
+                    <div class="d-flex h-100 flex-column jusitfy-content-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil totam, sit mollitia
+                            impedit, non assumenda odit, temporibus rem porro dolorum quae. Nemo itaque ipsa officiis
+                            dolorem fugiat exercitationem quos.</p>
+                    </div>
+                </div>
+
+                <div class="col-4 p-0">
+                    <img class="img-fluid" src="img/about1.jpg">
+
+                </div>
+            </div>
+            <!-- /////////////////// -->
+            <div class="row">
+                <div class="col-8 bg-light">
+                    <div class="d-flex h-100 flex-column jusitfy-content-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil totam, sit mollitia
+                            impedit, non assumenda odit, temporibus rem porro dolorum quae. Nemo itaque ipsa officiis
+                            dolorem fugiat exercitationem quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Similique corrupti ut veniam.</p>
+                    </div>
+                </div>
+
+                <div class="col-4 order-first p-0">
+                    <img class="img-fluid" src="img/about2.jpg">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////////PHOTOS SECTION////////////////// -->
+    <section class="pic p-0" id="photos">
+        <div style="text-align: center;">
+            <h2 class="display-5 mb-5" style="color: black; text-align: center;">Places To Visit</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="img/altinkum.jpg" alt="Nature" width="100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="img/Uzungol.jpg" alt="Snow" width="100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="img/istanbul-2430072.jpg" alt="Mountains" width="100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="img/antalya-2708343.jpg" alt="Lights" width="100%" onclick="myFunction(this);">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <img id="expandedImg" style="width:100%">
+
+            <div id="imgtext"></div>
+        </div>
+    </section>
+    <!-- ///////MAPS SCETION////////// -->
+    <section class="map p-0" id="maps">
+        <h2 class="display-5 mb-5" style="color: black; text-align: center; padding: 8px 20px; margin: 30px auto;">Our
+            Location</h2>
+        <div class="map-item ">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9778831709905!2d30.327694415003673!3d40.74051217932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccaded085419e9%3A0x23834c18a855be5f!2sSakarya%20%C3%9Cnv.%2C%20Serdivan%2FSakarya!5e0!3m2!1sen!2str!4v1639801490206!5m2!1sen!2str"
+                width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!-- /////CONTACT SECTION//////////// -->
+    <div class="contact-us " id="contact">
+        <div class="container">
+            <h2 class="stylish-head h1 head-border-center uppercase text-center" style="color: black;">Get in Touch</h2>
+            <p class="contact-desc text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit .
+            </p>
+            <div class="row">
+                <form class="row">
+                    <div class="col-md-6">
+                        <input class="form-control" input-lg type="text" name="username" placeholder="name">
+                        <input class="form-control" input-lg type="email" name="email" placeholder="email">
+                        <input class="form-control" input-lg type="text" name="subject" placeholder="subject">
+                    </div>
+                    <div class="col-md-6">
+                        <textarea class="form-control" input-lg placeholder="message" style="height: 158px;"></textarea>
+                    </div>
+                </form>
+            </div>
+            <button class="stylish-btn">Send Message</button>
+        </div>
+    </div>
+
+
+    <script src=" js/jquery.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

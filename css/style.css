@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=M+PLUS+1+Code:wght@200&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Lora:ital,wght@1,500&family=M+PLUS+1+Code:wght@200&family=Montserrat:wght@300;400&family=Smooch&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    scroll-behaviour: smooth;
+    font-family: "montserrat", sans-serif;
+    color: rgb(39, 103, 177);
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+}
+
+/* //navbar starts// */
+/* Style the navbar */
+/* #navbar {
+    overflow: hidden;
+} */
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+/* //navbar ends// */
+.bg-travel {
+    background-color: rgb(39, 103, 177) !important;
+
+}
+
+.navbar-brand {
+    color: rgb(244, 245, 244) !important;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+.sec2 {
+    background-image: url('../img/car-6603726_1920.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+
+#main .container {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.generic {
+    padding: 100px 0;
+}
+
+
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+/* ///////////////// */
+.pic {
+    padding: 100px 0;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+
+
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#photos .container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.map-item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-us {
+    padding: 80px 0;
+}
+
+.contact-us .contact-desc {
+    color: rgb(39, 103, 177);
+    margin-bottom: 40px;
+
+}
+
+.contact-us form input[type="text"],
+.contact-us form input[type="email"] {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(39, 103, 177);
+    border-radius: 0;
+}
+
+.contact-us form textarea {
+    height: 178px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(39, 103, 177);
+    border-radius: 0;
+
+}
+
+.contact-us .stylish-btn {
+    margin: 30px auto;
+    display: block;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    background: transparent;
+    background-color: rgb(39, 103, 177);
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
